@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\learnc#\\AuthenticationWfpApi\\BackendAuthenWpf.csproj": {}
+    "E:\\filepush\\MusicPlayerApi\\AuthenticationWfpApi\\BackendAuthenWpf.csproj": {}
   },
   "projects": {
-    "E:\\learnc#\\AuthenticationWfpApi\\BackendAuthenWpf.csproj": {
+    "E:\\filepush\\MusicPlayerApi\\AuthenticationWfpApi\\BackendAuthenWpf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\learnc#\\AuthenticationWfpApi\\BackendAuthenWpf.csproj",
+        "projectUniqueName": "E:\\filepush\\MusicPlayerApi\\AuthenticationWfpApi\\BackendAuthenWpf.csproj",
         "projectName": "BackendAuthenWpf",
-        "projectPath": "E:\\learnc#\\AuthenticationWfpApi\\BackendAuthenWpf.csproj",
+        "projectPath": "E:\\filepush\\MusicPlayerApi\\AuthenticationWfpApi\\BackendAuthenWpf.csproj",
         "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-        "outputPath": "E:\\learnc#\\AuthenticationWfpApi\\obj\\",
+        "outputPath": "E:\\filepush\\MusicPlayerApi\\AuthenticationWfpApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

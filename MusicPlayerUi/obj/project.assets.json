@@ -1644,11 +1644,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\filegitclone\\ViDuCSharp\\MusicPlayer\\MusicPlayer.csproj",
+      "projectUniqueName": "E:\\filepush\\MusicPlayerApi\\MusicPlayerUi\\MusicPlayer.csproj",
       "projectName": "MusicPlayer",
-      "projectPath": "E:\\filegitclone\\ViDuCSharp\\MusicPlayer\\MusicPlayer.csproj",
+      "projectPath": "E:\\filepush\\MusicPlayerApi\\MusicPlayerUi\\MusicPlayer.csproj",
       "packagesPath": "C:\\Users\\nguye\\.nuget\\packages\\",
-      "outputPath": "E:\\filegitclone\\ViDuCSharp\\MusicPlayer\\obj\\",
+      "outputPath": "E:\\filepush\\MusicPlayerApi\\MusicPlayerUi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

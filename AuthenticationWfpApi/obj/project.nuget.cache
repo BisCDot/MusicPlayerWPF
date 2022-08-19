@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IeHnGFt4wcTXN9+6M6Tb3fxpbHZjeByZtZga+RsfSbHvSt2kQlQfBPKwAeidQoPFpHpdoacBd5eZHniQ1RLXVg==",
+  "dgSpecHash": "nrEoaJkUKbiyhD3TkilZY4ch+EBB+M/6lqLNFyeNRImmQH8YR/6YC3HAwd2I97nTAMZnWW+7XlOFWrmy1whkng==",
   "success": true,
-  "projectFilePath": "E:\\learnc#\\AuthenticationWfpApi\\BackendAuthenWpf.csproj",
+  "projectFilePath": "E:\\filepush\\MusicPlayerApi\\AuthenticationWfpApi\\BackendAuthenWpf.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nguye\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\nguye\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

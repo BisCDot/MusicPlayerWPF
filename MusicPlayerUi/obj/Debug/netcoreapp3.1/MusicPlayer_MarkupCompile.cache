@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\filegitclone\ViDuCSharp\MusicPlayer\obj\Debug\netcoreapp3.1\
+E:\filepush\MusicPlayerApi\MusicPlayerUi\obj\Debug\netcoreapp3.1\
 MusicPlayer
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-E:\filegitclone\ViDuCSharp\MusicPlayer\App.xaml
-3-1847413874
+E:\filepush\MusicPlayerApi\MusicPlayerUi\App.xaml
+4-2030252624
 
-13-1264789594
+141206265438
 2281917646962
-MainWindow.xaml;UserControls\SongItem.xaml;Views\Login.xaml;
+MainWindow.xaml;UserControls\SongItem.xaml;Views\AdminWindow.xaml;Views\Login.xaml;
 
 False
 

@@ -104,7 +104,7 @@ namespace MusicPlayer.Views
                         Window login = new Login();
                         login.Hide();
                         login.Close();
-                        MainWindow mainWindow = new MainWindow();
+                        AdminWindow mainWindow = new AdminWindow();
                         mainWindow.Show();
                     }
                     else

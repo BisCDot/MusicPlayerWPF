@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackendAuthenWpf", "BackendAuthenWpf.csproj", "{AD18F54F-F292-4BE6-8452-5900FB9E9620}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD18F54F-F292-4BE6-8452-5900FB9E9620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD18F54F-F292-4BE6-8452-5900FB9E9620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD18F54F-F292-4BE6-8452-5900FB9E9620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD18F54F-F292-4BE6-8452-5900FB9E9620}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06557D54-955A-418E-B625-2849DBF17F07}
+	EndGlobalSection
+EndGlobal

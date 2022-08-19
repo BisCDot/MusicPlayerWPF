@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UseWPF>true</UseWPF>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Image\key-icon.png" />
+		<None Remove="Image\music.png" />
+		<None Remove="Image\n1.jpg" />
+		<None Remove="Image\n2.jpg" />
+		<None Remove="Image\n3.jpg" />
+		<None Remove="Image\p1.jpg" />
+		<None Remove="Image\p2.jpg" />
+		<None Remove="Image\p3.jpg" />
+		<None Remove="Image\p4.jpg" />
+		<None Remove="Image\user-icon.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="MahApps.Metro.IconPacks" Version="4.10.0" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+		<PackageReference Include="System.Runtime.Caching" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Image\key-icon.png" />
+		<Resource Include="Image\music.png">
+			<CopyToOutputDirectory>Never</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\n1.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\n2.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\n3.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\p1.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\p2.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\p3.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\p4.jpg">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Resource>
+		<Resource Include="Image\user-icon.png" />
+	</ItemGroup>
+</Project>

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 E:\filepush\MusicPlayerApi\MusicPlayerUi\App.xaml
-4-2030252624
+5-1440344379
 
-161133405401
+18-197615712
 2281917646962
-MainWindow.xaml;UserControls\SongItem.xaml;Views\AdminWindow.xaml;Views\Login.xaml;
+MainWindow.xaml;UserControls\SongItem.xaml;Views\AdminWindow.xaml;Views\Login.xaml;Views\RegisterWindow.xaml;
 
 False
 

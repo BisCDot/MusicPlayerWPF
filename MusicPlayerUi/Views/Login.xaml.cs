@@ -16,6 +16,7 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
@@ -67,6 +68,8 @@ namespace MusicPlayer.Views
 
             var responseJson = await request.Content.ReadAsStringAsync();
             var jObject = JObject.Parse(responseJson);
+            string urlSubscribers = "https://localhost:5001/api/Subscribers";
+            string urlAdmin = "https://localhost:5001/api/Customers";
             if (request.StatusCode == HttpStatusCode.OK)
             {
                 var token = jObject.GetValue("token").ToString();
@@ -75,10 +78,10 @@ namespace MusicPlayer.Views
 
                 var success = jObject.GetValue("success").ToString();
                 client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);
-                HttpResponseMessage responseUserStatus = await client.GetAsync("https://localhost:5001/api/Subscribers");
+                HttpResponseMessage responseUserStatus = await client.GetAsync(urlSubscribers);
                 if (responseUserStatus.StatusCode == HttpStatusCode.OK)
                 {
-                    string responseUser = await client.GetStringAsync("https://localhost:5001/api/Subscribers");
+                    string responseUser = await client.GetStringAsync(urlSubscribers);
                     if (success == "True" && responseUser == "83h99UnCVN}.~1=AG]NU0gEekmqckTi&mDmEWByMw)")
                     {
                         MessageBox.Show("Đăng nhập thành công user");
@@ -94,10 +97,10 @@ namespace MusicPlayer.Views
                         MessageBox.Show("email và password không chính xác!", "email và password sai", MessageBoxButton.OK, MessageBoxImage.Error);
                     }
                 }
-                HttpResponseMessage responseAdminStatus = await client.GetAsync("https://localhost:5001/api/Customers");
+                HttpResponseMessage responseAdminStatus = await client.GetAsync(urlAdmin);
                 if (responseAdminStatus.StatusCode == HttpStatusCode.OK)
                 {
-                    var responseAd = await client.GetStringAsync("https://localhost:5001/api/Customers");
+                    var responseAd = await client.GetStringAsync(urlAdmin);
                     if (success == "True" && responseAd == "[#B8^o&G{6U&n$#VF'(!}KTKfax8$((]#kh0,")
                     {
                         MessageBox.Show("Đăng nhập thành công");
@@ -120,6 +123,12 @@ namespace MusicPlayer.Views
 
                 MessageBox.Show(error, "lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
+        }
+
+        private void btnRegister_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow registerWindow = new RegisterWindow();
+            registerWindow.Show();
         }
     }
 }

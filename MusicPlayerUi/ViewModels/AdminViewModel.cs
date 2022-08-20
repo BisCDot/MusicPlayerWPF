@@ -38,25 +38,6 @@ namespace MusicPlayer.ViewModels
                 new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/6ACWB7ZI/320", NameMusic = "Chạy Về Khóc với anh",Time = "04:22", Number = "11" },
                 new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/6ACWB7ZI/320", NameMusic = "Tình Yêu Ngủ Quên",Time = "02:54", Number = "12" },
                 new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/6I8UAFZA/320", NameMusic = "Hít Vào Thở Ra",Time = "04:22", Number = "13" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "14" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "15" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "16" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "17" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "18" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "19" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "20" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "21" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "22" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "23" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "24" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "25" },
-                new ItemSong(){LinkSong = @"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320", NameMusic = "Thiêu Thân",Time = "04:22", Number = "26" },
-
-                  //@"http://api.mp3.zing.vn/api/streaming/audio/6AC7IW0A/320",
-                  //@"http://api.mp3.zing.vn/api/streaming/audio/ZZDA60O8/320",
-                  //@"http://api.mp3.zing.vn/api/streaming/audio/ZZ98CW7W/320",
-                  //@"http://api.mp3.zing.vn/api/streaming/audio/ZZDI9B7U/320",
-                  //@"http://api.mp3.zing.vn/api/streaming/audio/ZZDWA6AE/320",//Thieu Than
             };
         }
 

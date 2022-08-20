@@ -71,7 +71,6 @@ namespace MusicPlayer.Views
             {
                 var token = jObject.GetValue("token").ToString();
                 await File.WriteAllTextAsync(@"E:\\Cache\token.txt", token);
-                //var sw = new StreamWriter(token, true);
 
                 var success = jObject.GetValue("success").ToString();
                 client.DefaultRequestHeaders.Add("Authorization", "Bearer " + token);

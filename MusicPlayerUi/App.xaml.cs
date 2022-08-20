@@ -68,12 +68,6 @@ namespace MusicPlayer
                     }
                 }
             }
-
-            //// Determine if login was successful
-
-            //MainWindow.Show();
-
-            ////show your MainWindow
         }
 
         public App()

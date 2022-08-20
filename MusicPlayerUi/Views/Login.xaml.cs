@@ -19,6 +19,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
+using Application = System.Windows.Application;
 
 namespace MusicPlayer.Views
 {
@@ -45,7 +46,7 @@ namespace MusicPlayer.Views
 
         private void btnClose_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+            Application.Current.Shutdown();
         }
 
         private static readonly HttpClient _httpClient = new HttpClient();

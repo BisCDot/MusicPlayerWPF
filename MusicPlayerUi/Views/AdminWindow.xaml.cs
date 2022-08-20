@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -32,7 +33,15 @@ namespace MusicPlayer.Views
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
+            Application.Current.Shutdown();
+        }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
             this.Close();
+            File.Create(@"E:\\Cache\token.txt").Close();
+            Window login = new Login();
+            login.Show();
         }
     }
 }

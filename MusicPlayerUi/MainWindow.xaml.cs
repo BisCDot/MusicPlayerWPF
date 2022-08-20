@@ -1,8 +1,10 @@
 ﻿using Microsoft.Win32;
+using MusicPlayer.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -40,6 +42,14 @@ namespace MusicPlayer
         private void Close_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void Logout_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            File.Create(@"E:\\Cache\token.txt").Close();
+            Window login = new Login();
+            login.Show();
         }
     }
 }

@@ -184,8 +184,11 @@
             <local:CustomMediaElement Source="{Binding SourceMedia}"
                                       NextCommand="{Binding NextCommand}"
                                       PrevCommand="{Binding PrevCommand}" />
-            <Button x:Name="Close" Style="{StaticResource playerButtonClose}"  HorizontalAlignment="Left" Margin="970,19,0,0" VerticalAlignment="Top" Click="Close_Click">
+            <Button x:Name="Close" Style="{StaticResource playerButtonClose}"  HorizontalAlignment="Right" Margin="20 10 30 0"  VerticalAlignment="Top" Click="Close_Click">
                 <Icon:PackIconMaterial Kind="Close" Style="{StaticResource playerButtonIcon}" ></Icon:PackIconMaterial>
+            </Button>
+            <Button x:Name="Logout" Style="{StaticResource playerButtonLogout}"  HorizontalAlignment="Right" Margin="20 10 100 0"  VerticalAlignment="Top" Click="Logout_Click">
+                <Icon:PackIconMaterial Kind="Logout" Height="25" Width="25" ></Icon:PackIconMaterial>
             </Button>
         </Grid>
     </Grid>

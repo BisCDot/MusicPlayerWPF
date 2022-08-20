@@ -82,11 +82,37 @@
                 <Setter Property="Width" Value="17" />
                 <Setter Property="Height" Value="17" />
             </Style>
+
             <Style x:Key="playerButtonClose" TargetType="Button">
                 <Setter Property="Background" Value="Green" />
                 <Setter Property="Foreground" Value="#ffff" />
                 <Setter Property="Width" Value="25" />
                 <Setter Property="Height" Value="25" />
+                <Setter Property="Margin" Value="3 0" />
+                <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+                <Setter Property="Tag" Value="Collapsed" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Background="{TemplateBinding Background}" CornerRadius="50">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"></ContentPresenter>
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#00a85b" />
+                        <Setter Property="Foreground" Value="#f0f0f0" />
+                        <Setter Property="Tag" Value="Vísible" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+            <Style x:Key="playerButtonLogout" TargetType="Button">
+                <Setter Property="Background" Value="Green" />
+                <Setter Property="Foreground" Value="#ffff" />
+                <Setter Property="Width" Value="40" />
+                <Setter Property="Height" Value="40" />
                 <Setter Property="Margin" Value="3 0" />
                 <Setter Property="FocusVisualStyle" Value="{x:Null}" />
                 <Setter Property="Tag" Value="Collapsed" />

@@ -63,7 +63,7 @@ namespace MusicPlayer
                     {
                         login.Hide();
 
-                        MainWindow mainWindow = new MainWindow();
+                        AdminWindow mainWindow = new AdminWindow();
                         mainWindow.Show();
                     }
                 }

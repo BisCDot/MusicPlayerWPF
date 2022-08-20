@@ -43,10 +43,10 @@ namespace MusicPlayer.Views
             WindowState = WindowState.Minimized;
         }
 
-        //private void btnClose_Click(object sender, RoutedEventArgs e)
-        //{
-        //    Application.Current.Shutdown();
-        //}
+        private void btnClose_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
 
         private static readonly HttpClient _httpClient = new HttpClient();
 
@@ -119,7 +119,6 @@ namespace MusicPlayer.Views
 
                 MessageBox.Show(error, "lỗi", MessageBoxButton.OK, MessageBoxImage.Error);
             }
-            //MessageBox.Show("lỗi!", "s", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 }

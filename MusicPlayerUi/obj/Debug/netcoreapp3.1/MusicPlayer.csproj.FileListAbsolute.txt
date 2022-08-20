@@ -158,5 +158,3 @@ E:\filepush\MusicPlayerApi\MusicPlayerUi\obj\Debug\netcoreapp3.1\MusicPlayer.csp
 E:\filepush\MusicPlayerApi\MusicPlayerUi\obj\Debug\netcoreapp3.1\MusicPlayer.dll
 E:\filepush\MusicPlayerApi\MusicPlayerUi\obj\Debug\netcoreapp3.1\MusicPlayer.pdb
 E:\filepush\MusicPlayerApi\MusicPlayerUi\obj\Debug\netcoreapp3.1\MusicPlayer.genruntimeconfig.cache
-E:\filepush\MusicPlayerApi\MusicPlayerUi\obj\Debug\netcoreapp3.1\Views\RegisterWindow.g.cs
-E:\filepush\MusicPlayerApi\MusicPlayerUi\obj\Debug\netcoreapp3.1\Views\RegisterWindow.baml

@@ -41,7 +41,7 @@ namespace MusicPlayer
 
         private void Close_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            Close();
         }
 
         private void Logout_Click(object sender, RoutedEventArgs e)
